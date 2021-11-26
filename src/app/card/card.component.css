@@ -1,0 +1,92 @@
+.credit-card-div span {
+    padding-top: 10px;
+}
+
+.credit-card-div img {
+    padding-top: 30px;
+}
+
+.credit-card-div .small-font {
+    font-size: 9px;
+}
+
+.credit-card-div .pad-adjust {
+    padding-top: 10px;
+}
+
+#pt-10 {
+    padding-top: 10%;
+}
+#pt-3 {
+    padding-top: 3%;
+}
+
+.card, .card .side {
+    width: 350px;
+    height: 200px;
+}
+
+.card .front {
+    padding: 10px;
+    transform: rotateX(0deg) rotateY(0deg);
+}
+
+.card .side {
+    border-radius: 5px 5px;
+    transition: all 0.4s linear;
+    background: #333;
+    color: #FFF;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card, .card .side {
+    width: 350px;
+    height: 200px;
+}
+
+.card .company {
+    box-sizing: border-box;
+    float: right;
+}
+
+.card .cc-num {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.card input {
+    outline: none;
+    border: 0px solid;
+    background: none;
+    color: #FFF;
+}
+
+.card input {
+    outline: none;
+    border: 0px solid;
+    background: none;
+    color: #FFF;
+}
+
+.card .side {
+    border-radius: 5px 5px;
+    transition: all 0.4s linear;
+    background: #333;
+    color: #FFF;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card .back {
+    padding-top: 15px;
+    transform: rotateY(-180deg);
+}

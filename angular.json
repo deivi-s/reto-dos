@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "desafio-dos"
+  "defaultProject": "desafio-dos",
+  "cli": {
+    "analytics": false
+  }
 }

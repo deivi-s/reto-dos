@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="front side">
+        <span class="company">
+            VISA
+        </span>
+        <span *ngIf="!titular">TARJETA DE CREDITO</span>{{ titular }}
+        <input type="text" placeholder="Card number" class="cc-num" [value]="tarjeta_credito">
+        <div>
+            Expira:
+            <input type="text" placeholder="{{mes}}/{{anio}}" class="cc-exp">
+        </div>
+    </div>
+</div>
