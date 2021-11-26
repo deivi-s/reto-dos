@@ -6,48 +6,7 @@
     </div>
     <div class="row" id="pt-3">
         <div class="col-md-4 offset-md-4">
-            <form action="#" class="credit-card-div">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <div class="row ">
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" placeholder="Numero de la tarjeta"
-                                    [(ngModel)]="tarjeta_credito" name="tarjeta_credito" />
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-md-3 col-sm-3 col-xs-3">
-                                <span class="help-block text-muted small-font"> Mes</span>
-                                <input type="text" class="form-control" placeholder="MM" name="mes" [(ngModel)]="mes" />
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-3">
-                                <span class="help-block text-muted small-font"> Año</span>
-                                <input type="text" class="form-control" placeholder="YY" name="anio"
-                                    [(ngModel)]="anio" />
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-3">
-                                <span class="help-block text-muted small-font"> CCV</span>
-                                <input type="text" class="form-control" placeholder="CCV" name="ccv"
-                                    [(ngModel)]="ccv" />
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-3">
-                                <img src="assets/icon.png" class="img-rounded" width="40" />
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-md-12 pad-adjust">
-                                <input type="text" class="form-control" placeholder="Nombre del titular" name="titular"
-                                    [(ngModel)]="titular" />
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
-                                <input type="submit" class="btn btn-danger" value="PAGAR" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
+            <app-form-card></app-form-card>
         </div>
     </div>
 </div>
